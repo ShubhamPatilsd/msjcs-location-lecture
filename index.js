@@ -11,5 +11,5 @@ const response = fetch("https://ipapi.co/json/")
 
     document.getElementById(
       "city"
-    ).textContent = `You live in ${location.city}, ${location.country_name}`;
+    ).textContent = `You are in ${location.city}, ${location.country_name}`;
   });
